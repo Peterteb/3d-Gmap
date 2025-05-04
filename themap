@@ -24,5 +24,13 @@
     }
     init();
   </script>
+  const map3DElement = new Map3DElement({
+      center: { lat: 43.6425, lng: -79.3871, altitude: 400 },
+      range: 1000,
+      tilt: 60,
+      mode: MapMode.HYBRID,
+  });
+
+  document.body.append(map3DElement);
    </body>
  </html>
